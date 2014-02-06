@@ -1,3 +1,20 @@
-li {
-  background-color: green;
+@import "bourbon";
+@import "neat";
+
+*{
+  @include pad;
+}
+
+.container {
+  @include outer-container;
+  background-color: blue;
+  .one {
+    @include span-columns(6);
+    background-color: green;
+  }
+  .two {
+    @include span-columns(6);
+    background-color: red;
+  }
+
 }

@@ -1,3 +1,4 @@
+activate :neat
 ###
 # Compass
 ###
